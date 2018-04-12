@@ -1,0 +1,29 @@
+{
+  "name": "express-rest-monitor",
+  "version": "1.0.0",
+  "description": "Rest API admin for Express.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeniuus/express-rest-monitor.git"
+  },
+  "keywords": [
+    "Express.js",
+    "Rest",
+    "API",
+    "admin"
+  ],
+  "author": "Zeniuus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeniuus/express-rest-monitor/issues"
+  },
+  "homepage": "https://github.com/Zeniuus/express-rest-monitor#readme",
+  "dependencies": {}
+}
