@@ -25,5 +25,7 @@
     "url": "https://github.com/Zeniuus/express-rest-monitor/issues"
   },
   "homepage": "https://github.com/Zeniuus/express-rest-monitor#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
