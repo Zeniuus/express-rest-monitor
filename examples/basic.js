@@ -4,7 +4,7 @@ const app = express();
 
 const port = 3000;
 
-app.use(expressRestMonitor);
+app.use(expressRestMonitor());
 
 app.get('/', (req, res) => {
   res.json({
