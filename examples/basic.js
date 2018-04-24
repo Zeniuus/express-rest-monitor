@@ -4,7 +4,11 @@ const app = express();
 
 const port = 3000;
 
+/* TODO: Move other usage of middlewares into expressRestMonitor */
 app.use(expressRestMonitor());
+app.use(express.static(`${__dirname}/../lib/static`));
+app.set('views', `${__dirname}/../lib/templates`);
+app.engine('html', require('ejs').renderFile);
 
 app.get('/', (req, res) => {
   res.json({
