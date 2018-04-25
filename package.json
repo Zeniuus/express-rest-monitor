@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/Zeniuus/express-rest-monitor#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "ejs": "^2.5.9",
     "express": "^4.16.3",
     "vue": "^2.5.16",
