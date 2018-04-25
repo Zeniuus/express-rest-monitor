@@ -39,6 +39,18 @@ app.delete('/', (req, res) => {
   });
 });
 
+app.get('/asdf', (req, res) => {
+  res.json({
+    get: 'asdf',
+  });
+});
+
+app.put('/asdf', (req, res) => {
+  res.json({
+    put: 'asdf',
+  });
+});
+
 app.listen(3000, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
