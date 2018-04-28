@@ -28,9 +28,14 @@
   "dependencies": {
     "axios": "^0.18.0",
     "ejs": "^2.5.9",
+    "eslint": "^4.19.1",
     "express": "^4.16.3",
     "vue": "^2.5.16",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
   }
 }
